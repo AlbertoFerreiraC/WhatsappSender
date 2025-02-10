@@ -26,7 +26,7 @@ public class WhatsAppSender {
 
             Robot robot = new Robot();
 
-            String imagePath = "C:/Users/Desarrollo/Documents/NetBeansProjects/WhatsAppSender/src/Imagenes/drawing-g20f6cc09b_1280.jpg";
+            String imagePath = "C:/Users/Alberto/Desktop/Ideas/WhatsAppSender/src/Imagenes/drawing-g20f6cc09b_1280.jpg";
             File imageFile = new File(imagePath);
             Desktop desktop = Desktop.getDesktop();
             desktop.open(imageFile);
@@ -42,7 +42,7 @@ public class WhatsAppSender {
             robot.keyRelease(KeyEvent.VK_W);//livera
 
             List<String> numeros = new ArrayList<>();
-            numeros.add("595983232390");
+            numeros.add("595961275346");
             numeros.add("595983232390");
 
             for (String numero : numeros) {
